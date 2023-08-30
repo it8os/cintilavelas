@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cintila</title>
+    <!-- Inclua os arquivos CSS e JavaScript do Bootstrap -->
+
+ 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+    <style>
+        body {
+         font-family: 'Poppins', sans-serif;
+     }
+     h1, h2, h3, h4, h5, h6 {
+         font-family: 'Poppins', sans-serif;
+     }
+     h2{
+        padding-top: 20px;
+    padding-bottom: 10px;
+     }
+     .navbar{
+    background-color: #c2afe8;
+     }
+     .title{
+        padding: 20px;
+        width: 60px;
+     }
+     .icon{
+    width: 90px;
+     }
+     .p1{
+    width: 100px;
+     }
+    .container{
+    align-items: center;
+     }
+     .row1{
+        margin-left: 650px;
+        margin-bottom: 20;
+
+     }
+     .row2{
+        margin-left: 0px;
+        padding: 5px;
+     }
+     .row3{
+        margin-left: 365px;
+        padding: 5px;
+     }
+
+     .footer{
+        padding: 10px;
+        margin-bottom: 20;
+
+             }
+
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+a {
+ text-decoration: none;
+
+}
+
+.btn-roxo2 {
+        background-color: #c2afe8;
+        color: #ffffff;
+        border: none;
+        width: 540px;
+    }
+    .btn-roxo2:hover {
+        background-color: #814cc7;
+    }
+    .btn-roxo:hover {
+        background-color: #814cc7;
+    }
+    .btn-primary {
+        background-color: #343738;
+        color: white;
+        border: none;
+        margin-top: -10px; /* Adicione a margem desejada aqui */
+        margin-right: 0px; /* Adicione a margem desejada aqui */
+    }
+
+.btn-primary:hover {
+    background-color: #343738;
+}
+.container-fluid1{
+    background-color: #fffc93;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 92.5;
+    margin-right: 92.5;
+    text-align: center;
+}
+
+.container2{
+    padding: 20PX;
+
+}
+.card {
+            background-color: #ffffff; /* Fundo branco */
+            border: 1px solid #ccc;
+        }
+        .card-img-top {
+            max-height: AUTOpx; /* Altura máxima da imagem */
+        }
+        .btn-roxo {
+        background-color: #c2afe8;
+        color: white;
+        border: none;
+    }
+
+    /* Estilo para o botão roxo ao passar o mouse (opcional) */
+    .btn-roxo:hover {
+        background-color: #814cc7;
+    }
+    .container3 {
+    max-width: auto;
+    margin-top: 30px;
+    margin-bottom: 0px ;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+}
+.container-fluid2{
+    background-color: #ebebeb;
+    width: 900;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+
+
+}
+
+.position-relative1{
+    background-color: #c2afe8;
+}
+.btn-outline {
+    border-color: #814cc7;
+    color: #814cc7;
+}
+.flex-container {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        /* Estilos para a coluna de texto */
+        .coluna-texto {
+            flex: 1; /* Esta coluna ocupará 1 parte do espaço disponível */
+            padding: 20px;
+        }
+
+        /* Estilos para a coluna de imagem (maior) */
+        .coluna-imagem {
+            flex: 1; /* Esta coluna ocupará 2 partes do espaço disponível, tornando-a maior */
+
+            padding: 20px;
+            margin-left: 20px;
+        }
+        .coluna-imagem1 {
+            padding: 20px;
+        }
+        #red {
+color: #e94545d7
+}
+#teal {
+color: rgb(69, 129, 129)
+}
+#blue {
+color: #0000ff
+}
+.container-fluid5{
+    padding: 20px;
+}
+ </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="logo vazada.png" alt="Logo" height= auto width="50">
+            </a>
+            <!-- Nome do Site -->
+            <a><h2>Cintila</h2></a>
+
+            <!-- Botão de alternância para telas pequenas -->
+            
+           <!-- Itens de navegação -->
+           <div class="row1 "></div>
+           <div class="collapse navbar-collapse" id="navbarNav">
+            <form>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Pesquisar..." aria-label="Pesquisar" aria-describedby="botao-pesquisar">
+                    <button class="btn btn-grey" type="submit" id="botao-pesquisar"><img src="pesquisar.png" height="auto" width="20"></button>
+                </div>
+            </form>
+            
+           </div>
+    </nav>  
+<nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+    <div class="container ">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" >
+                <a class="nav-link" href="index.html"><h7>Página inicial</h7></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="produtos.html"><h7>Produtos</h7></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sobrenos.html"><h7>Quem somos</h7></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contatos.html"><h7>Contato</h7></a>
+                </li>
+            </ul>
+            <div class="row3"></div>
+            <div class="col-lg-3 col-6 text-right">
+                <a href="" class="btn border">
+                    <i class="fas fa-user" style="color: #ffffff;" ></i>
+                    <span class="text" style="color: #ffffff;">Entrar</span>
+                </a>
+                <a href="" class="btn border">
+                    <i class="fas fa-heart" style="color: #ffffff;" ></i>
+                    <span class="badge" style="color: #ffffff;" >0</span>
+                </a>
+                <a href="" class="btn border">
+                    <i class="fas fa-shopping-cart"  style="color: #ffffff;" ></i>
+                    <span class="badge" style="color: #ffffff;">0</span>
+                </a>
+            </div>
+        </div>
+
+       
+    </div>
+    </div>
+</nav>
+
+    <!-- Conteúdo da página -->
+    <div class="flex-container">
+        <!-- Coluna de Texto -->
+        <div class="coluna-texto">
+    <div class="coluna-texto">
+        <class="container-fluid5 mb-5></class>
+            <id="mobile-filter">
+            <div>
+            <h6 class="p-1 border-bottom">Filtar por</h6>
+            <ul>
+            <li><a href="#" style="color: #814cc7;">Velas Aromaticas</a></li>
+            <li><a href="#" style="color: #814cc7;">Velas experimentais</a></li>
+            <li><a href="#" style="color: #814cc7;">Aromas</a></li>
+            <li><a href="#" style="color: #814cc7;">Incensos</a></li>
+            </ul>
+            </div>
+
+</div>
+        <!-- Coluna de Imagem (maior) -->
+       
+
+
+            <div class="container">
+                <h1>PRODUTOS</h1>
+                <div class="row">
+                    <!-- Cartão 1 -->
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="lilaexpo.png" class="card-img-top" alt="Imagem 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Vela Lila</h5>
+                                <p class="card-text">Aroma de lavanda.</p>
+                                <h6 class="center1">R$ 16,90</h6>
+                                <button class="btn btn-roxo">Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Cartão 2 -->
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="Poncãxspo.png" class="card-img-top" alt="Imagem 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Vela Poncã</h5>
+                                <p class="card-text">Aroma de tangerina.</p>
+                                <h6 class="center1">R$ 16,90</h6>
+                                <button class="btn btn-roxo">Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Cartão 3 -->
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="bauniexpo.png" class="card-img-top" alt="Imagem 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Vela Bauni</h5>
+                                <p class="card-text">Aroma de vanilla.</p>
+                                <h6 class="center1">R$ 16,90</h6>
+                                <button class="btn btn-roxo">Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+                                    <!-- Cartão 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="momileexpo.png" class="card-img-top" alt="Imagem 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Vela Lila</h5>
+                            <p class="card-text">Aroma de lavanda.</p>
+                            <h6 class="center1">R$ 16,90</h6>
+                            <button class="btn btn-roxo">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cartão 2 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="BOOOexpo.png" class="card-img-top" alt="Imagem 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Vela Poncã</h5>
+                            <p class="card-text">Aroma de tangerina.</p>
+                            <h6 class="center1">R$ 16,90</h6>
+                            <button class="btn btn-roxo">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cartão 3 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="cinnaexpo.png" class="card-img-top" alt="Imagem 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Vela Bauni</h5>
+                            <p class="card-text">Aroma de vanilla.</p>
+                            <h6 class="center1">R$ 16,90</h6>
+                            <button class="btn btn-roxo">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+   
+    <!-- Categories End -->
+
+    <!-- Featured Start -->
+
+        
+    
+
+     <!-- Footer Start -->
+     <div class="container-fluid2 bg-dark text-white-50 footer pt-3 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">FALE CONOSCO!</h5>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(11) 9 1234-5678</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>cintilavelas@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/cintilavelas/"><i class="fa fa-instagram"  style="color: #ffffff;" ></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fas fa-tiktok"  style="color: #ffffff;" ></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 align-items-center">
+                    <h5 class="text-white mb-4">NAVEGAÇÃO</h5>
+                    <a class="btn btn-link text-white-50" href="index.html">Página inicial</a>
+                    <a class="btn btn-link text-white-50" href="Produtos.html">Produtos</a>
+                    <a class="btn btn-link text-white-50" href="sobrenos.html">Quem somos</a>
+                    <a class="btn btn-link text-white-50" href="Contatos.html">Contato</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">GALERIA DE FOTOS</h5>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="bauniexpo.png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="Poncãxspo.png"">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="momileexpo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Faça parte do clube cintila!</h5>
+                    <p>Receba todas as informações em primeira mão.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Cintila</a>, Todos os direitos reservados. 
+                        
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Página inicial</a>
+                            <a href="Produtos.html">Produtos</a>
+                            <a href="sobrenos.html">Quem somos</a>
+                            <a href="Contatos.html">Contato</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Inclua os arquivos JavaScript do Bootstrap no final do corpo da página -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
